@@ -6,7 +6,7 @@
 # Website name
 title: Tingting Chen
 # Website URL
-baseURL: "https://ctt-pavilion.github.io"
+baseURL: "http://example.com/"
 
 ############################
 ## LANGUAGE
