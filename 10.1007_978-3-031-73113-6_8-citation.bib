@@ -1,0 +1,24 @@
+@InProceedings{10.1007/978-3-031-73113-6_8,
+author="Chen, Tingting
+and Lin, Beibei
+and Jin, Yeying
+and Yan, Wending
+and Ye, Wei
+and Yuan, Yuan
+and Tan, Robby T.",
+editor="Leonardis, Ale{\v{s}}
+and Ricci, Elisa
+and Roth, Stefan
+and Russakovsky, Olga
+and Sattler, Torsten
+and Varol, G{\"u}l",
+title="Dual-Rain: Video Rain Removal Using Assertive and Gentle Teachers",
+booktitle="Computer Vision -- ECCV 2024",
+year="2025",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="127--143",
+abstract="Existing video deraining methods addressing both rain accumulation and rain streaks rely on synthetic data for training as clear ground-truths are unavailable. Hence, they struggle to handle real-world rain videos due to domain gaps. In this paper, we present Dual-Rain, a novel video deraining method with a two-teacher process. Our novelty lies in our two-teacher framework, featuring an assertive and a gentle teacher. The novel two-teacher removes rain streaks and rain accumulation by learning from real rainy videos without the need for ground-truths. The basic idea of our assertive teacher is to rapidly accumulate knowledge from our student, accelerating deraining capabilities. The key idea of our gentle teacher is to slowly gather knowledge, preventing over-suppression of pixel intensity caused by the assertive teacher. Learning the predictions from both teachers allows the student to effectively learn from less challenging regions and gradually address more challenging regions in real-world rain videos, without requiring their corresponding ground-truths. Once high-confidence rain-free regions from our two-teacher are obtained, we augment their corresponding inputs to generate challenging inputs. Our student is then trained on these inputs to iteratively address more challenging regions. Extensive experiments show that our method achieves state-of-the-art performance on both synthetic and real-world videos quantitatively and qualitatively, outperforming existing state-of-the-art methods by 11{\%} of PSNR on the SynHeavyRain dataset.",
+isbn="978-3-031-73113-6"
+}
+
